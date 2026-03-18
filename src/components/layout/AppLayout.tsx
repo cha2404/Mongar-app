@@ -1,7 +1,7 @@
 import { ReactNode, useState } from 'react';
 import { useApp } from '@/context/AppContext';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, FileText, PlusCircle, Users, Bell, LogOut, Menu, X, ChevronDown, Printer, Building2, Wrench, BookOpen } from 'lucide-react';
+import { LayoutDashboard, FileText, CirclePlus as PlusCircle, Users, Bell, LogOut, Menu, X, ChevronDown, Printer, Building2, Wrench, BookOpen } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';

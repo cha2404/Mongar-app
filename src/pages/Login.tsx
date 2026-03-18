@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import { motion } from 'framer-motion';
-import { Printer, Loader2 } from 'lucide-react';
+import { Printer, Loader as Loader2 } from 'lucide-react';
 
 const Login = () => {
   const { login } = useApp();

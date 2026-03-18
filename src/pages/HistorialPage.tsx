@@ -9,7 +9,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Navigate } from 'react-router-dom';
-import { Wrench, Plus, Search, CalendarDays, User, FileText, Hash, AlertTriangle } from 'lucide-react';
+import { Wrench, Plus, Search, CalendarDays, User, FileText, Hash, TriangleAlert as AlertTriangle } from 'lucide-react';
 import { ServiceHistory } from '@/lib/types';
 import { toast } from '@/hooks/use-toast';
 

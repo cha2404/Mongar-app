@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
-import { FileText, Clock, CheckCircle, AlertTriangle, Printer, Monitor, Wrench, PackagePlus, FileBox, TrendingUp, Zap } from 'lucide-react';
+import { FileText, Clock, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle, Printer, Monitor, Wrench, PackagePlus, FileBox, TrendingUp, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Progress } from '@/components/ui/progress';
 

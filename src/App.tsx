@@ -15,7 +15,7 @@ import HistorialPage from '@/pages/HistorialPage';
 import LecturasPage from '@/pages/LecturasPage';
 import Notifications from '@/pages/Notifications';
 import NotFound from '@/pages/NotFound';
-import { Loader2 } from 'lucide-react';
+import { Loader as Loader2 } from 'lucide-react';
 
 const AuthGate = () => {
   const { user, loading } = useApp();

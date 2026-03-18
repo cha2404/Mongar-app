@@ -1,7 +1,7 @@
 import { useApp } from '@/context/AppContext';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Bell, Check, CheckCheck, Info, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
+import { Bell, Check, CheckCheck, Info, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Circle as XCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const typeIcon: Record<string, { icon: typeof Bell; cls: string }> = {

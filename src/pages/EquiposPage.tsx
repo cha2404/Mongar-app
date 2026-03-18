@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Navigate, Link } from 'react-router-dom';
-import { Printer, Wrench, Hash, MapPin, CalendarDays, Search, TrendingUp, AlertTriangle, Building2, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Printer, Wrench, Hash, MapPin, CalendarDays, Search, TrendingUp, TriangleAlert as AlertTriangle, Building2, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Equipment } from '@/lib/types';
 import { toast } from '@/hooks/use-toast';
 
